@@ -2,8 +2,10 @@
   "name": "bootdotdev_heifer",
   "version": "1.0.0",
   "main": "main.js",
+  "type": "module",
   "scripts": {
-    "start": "node main.js"
+    "start": "node dist/heifer.js",
+    "build": "vite build"
   },
   "author": "",
   "license": "ISC",
@@ -11,6 +13,10 @@
   "devDependencies": {
     "@babel/cli": "^7.29.7",
     "@babel/core": "^7.29.7",
-    "@babel/preset-env": "^7.29.7"
+    "@babel/preset-env": "^7.29.7",
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "cowsay": "^1.6.0"
   }
 }

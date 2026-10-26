@@ -1,2 +1,5 @@
+import { moo } from './moo.js';
+import { say } from 'cowsay';
+
 let myName = "Its'a ME!";
-console.log(`moo ${myName}!`);
+console.log(say({ text: `moo, ${myName}` }));
